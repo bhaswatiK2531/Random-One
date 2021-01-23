@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    height: 2500px;
+    background: linear-gradient(mediumpurple 0% , indigo 100%)
+
+}
+
+section {
+    width: 100%;
+    height: 800px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.line {
+    width: 1200px;
+    height: 5px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+p{
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.carousel-inner p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
